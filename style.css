@@ -95,7 +95,8 @@ nav ul li a:hover {
 }
 .portfolio-btn,
 .recent-btn,
-.recentt-btn,
+.politicas-btn,
+.terminos-btn,
 .client-box a {
   width: 190px;
   height: 44px;
@@ -109,7 +110,8 @@ nav ul li a:hover {
 }
 .portfolio-btn:hover,
 .recent-btn:hover,
-.recentt-btn:hover,
+.politicas-btn:hover,
+.terminos-btn:hover,
 .client-box a:hover,
 .contact-input a:hover {
   background-color: #23cdaf;
@@ -194,7 +196,14 @@ nav ul li a:hover {
   margin: 30px 0px;
   flex-direction: column;
 }
-#recentt {
+#politicas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  flex-direction: column;
+}
+#terminos {
   display: flex;
   justify-content: center;
   align-items: center;
